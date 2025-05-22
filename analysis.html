@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore why housing prices in the UK are at an all-time high and when homes became a luxury beyond reach for many.">
+    <meta name="keywords" content="UK housing market, housing prices, housing crisis, affordable housing, property market UK, housing luxury">
+    <meta name="author" content="Group Project">
+
+    <meta property="og:title" content="Housing market analysis?">
+
+    <meta property="og:description" content="Discover the factors driving the skyrocketing housing prices in the UK and why homes have become a luxury.">
+
+    <link rel="icon" href="/images/x-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <title>UK Housing Market Analysis</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="analysis.html">Housing Market Analysis</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-intro">
+    <h1>Why You Can't Afford a House Anymore</h1>
+  </section>
+
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4ZxzBcxB7Zc?si=ZxvKNpMyF3UF2Szy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+
+  <section class="cards">
+    <div class="card">
+      <img src="images/lock.jpeg" alt="Government Policies">
+      <div class="card-title" onclick="toggleContent(this)">Government Policies</div>
+      <div class="card-content">
+        Right to Buy reduced public housing stock drastically. Help to Buy inflated demand, driving prices up while supply stayed flat. Short-term vision, long-term mess.
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/pig.jpeg" alt="Supply and Demand">
+      <div class="card-title" onclick="toggleContent(this)">Supply & Demand</div>
+      <div class="card-content">
+        New builds lag far behind population growth. 31% fewer rentals since 2019, double-digit rent hikes in many regions. Demand crushes supply = prices rocket.
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/downgrade.jpeg" alt="Economic Pressures">
+      <div class="card-title" onclick="toggleContent(this)">Economic Pressures</div>
+      <div class="card-content">
+        Inflation’s rising, wages aren’t. House prices now equal 8.6 years of income vs 4.4 in 1999. First-time buyers? Good luck.
+      </div>
+    </div>
+  </section>
+
+  <section class="summary">
+    <p>
+      Let me make it simple for you: If you're not already in the game, you're late. The UK housing market is a rigged system of debt, inflated values, and shrinking access. While the elites buy their third homes, you're out here hustling for a shoebox flat. Either you adapt and play smarter, or you rent forever. Your move.
+    </p>
+  </section>
+
+  <script>
+    function toggleContent(element) {
+      const content = element.nextElementSibling;
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
